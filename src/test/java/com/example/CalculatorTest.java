@@ -15,12 +15,12 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        assertEquals(3, cal.add(2, 3));
+        assertEquals(5, cal.add(2, 3));
     }
 
     @Test
     public void testSubtract() {
-        assertEquals(2, cal.subtract(5, 2));
+        assertEquals(3, cal.subtract(5, 2));
     }
 
     @Test
